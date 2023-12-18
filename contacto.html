@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web Eloy Carballo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="navbar-brand" href="index.html">
+                <img id="logo" src="img/logo1.png" width="25" height="25"></a>   
+            <a href="index.html">Inicio</a>
+            <a href="aboutus.html">Acerca de</a>
+            <a href="portafolio.html">Portafolio</a>
+            <a href="service.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff;"></path>
+        </svg></div>
+
+        <section class="textos-header">
+            <h1>Kun Tigi</h1>
+            <h2>Surfriders who care</h2>
+        </section>
+
+    </header>
+    <main>
+
+        <div class="main">
+            <!--container-->
+            <div class="container">
+                <h2 class="titulo">Contacto</h2>
+              <form action="mail.php" enctype="multipart/form-data" method="post" name="formulario_html5" autocomplete="off">
+                <label for="nombre">Nombre y apellidos</label></br>
+                <input type="text" name="nombre" id="nombre" class="cajas"></br>
+
+         
+                <label for="web-site">e-mail</label></br>
+                <input type="url" name="web-site" id="web-site" class="cajas">       </br>
+          
+                <label for="telefono">Teléfono</label></br>
+                <input type="number" name="telefono" id="telefono" class="cajas"></br>
+
+                <label for="telefono">Asunto</label></br>
+                <input type="text" name="asunto" id="asunto" class="cajas"></br>
+                
+                <p>
+                <label for="comment" class="field-label">¿Desea comentarnos algo?</label>
+                <label for="comment" class="field prepend-icon">
+                </br>
+                    <textarea class="gui-textarea" id="comment" name="comment" placeholder=""></textarea>
+                    <span class="field-icon"><i class="fa fa-comments"></i></span>
+                    <span class="input-hint"> 
+                    </br>
+                        <strong>Por favor:</strong> sea lo más descriptivo posible
+                    </span>   
+                </label>   
+            </div>
+
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>+34 922 ### ###</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>###@gmail.com</p>
+            </div>
+        </div>
+       
+    </footer>
+</body>
+
+</html>
